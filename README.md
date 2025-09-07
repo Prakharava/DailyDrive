@@ -35,7 +35,7 @@ A sleek, all-in-one productivity dashboard featuring a weather widget, digital c
   - Task scheduling
 
 
-## 🛠️ Technologies Used
+## 🛠Technologies Used
 
 - **Frontend**
   - HTML
@@ -92,6 +92,6 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 ## Contact
 
-Your Name - Prakhar Srivastava - prakhar.srivastava_cs22@gla.ac.in
+Prakhar Srivastava - prakhar.srivastava_cs22@gla.ac.in
 
 Project Link: [https://github.com/yourusername/dailydrive](https://github.com/yourusername/dailydrive)

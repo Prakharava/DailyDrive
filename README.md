@@ -1,8 +1,8 @@
-# 🌟 DailyDrive - Modern Productivity Dashboard
+# DailyDrive - Modern Productivity Dashboard
 
 A sleek, all-in-one productivity dashboard featuring a weather widget, digital clock, to-do list, Pomodoro timer, and inspirational quotes. Built with vanilla JavaScript and modern CSS.
 
-## ✨ Features
+## Features
 
 - **Weather Widget**
   - Real-time weather information
@@ -46,7 +46,7 @@ A sleek, all-in-one productivity dashboard featuring a weather widget, digital c
   - [Open-Meteo](https://open-meteo.com/) (for weather data)
   - [Quotable](https://github.com/lukePeavey/quotable) (for quotes)
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 dailydrive/
@@ -63,17 +63,17 @@ dailydrive/
     └── planner.js      # Hourly planner functionality
 ```
 
-## 🔧 Configuration
+## Configuration
 
 The weather feature uses the [Open-Meteo API](https://open-meteo.com/) which doesn't require an API key for basic usage. The weather data is fetched based on the user's geolocation or defaults to New Delhi, India if location access is not available.
 
-## 🎨 Design Philosophy
+## Design Philosophy
 
 - **Minimalist Interface**: Clean, uncluttered design focused on usability
 - **Responsive**: Works on desktop and tablet devices
 - **Dark Theme**: Easy on the eyes for extended use
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -84,13 +84,13 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 5. Open a Pull Request
 
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - Weather data provided by [Open-Meteo](https://open-meteo.com/)
 - Quotes provided by [Quotable](https://github.com/lukePeavey/quotable)
 - Inspired by modern productivity tools and dashboards
 
-## 📬 Contact
+## Contact
 
 Your Name - Prakhar Srivastava - prakhar.srivastava_cs22@gla.ac.in
 

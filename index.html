@@ -1,35 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0f172a" />
+  <title>DailyDrive</title>
+  <link rel="stylesheet" href="styles/styles.css" />
 </head>
 <body>
-    <div id="main">
-        <nav>
+  <header class="hero" role="banner">
+    <h1 class="app-title">DailyDrive</h1>
+    <div class="hero-inner">
+      <div id="weather-card" class="weather-card" aria-live="polite">
+        <div class="location" id="location"></div>
+        <div class="weather-main">
+          <div id="temp" class="temp">--°</div>
+          <div id="desc" class="desc">Loading…</div>
+        </div>
+        <div id="weather-meta" class="meta">Wind: -- | Humidity: --</div>
+      </div>
 
-        </nav>
-        <section class="allElems">
-            <div class="todo elems" id="1">
-                To Do List
-            </div>
-            <div class="daily elems" id="2">
-                Daily Planner
-            </div>
-            <div class="motivation elems" id="3">
-                Motivational Quotes
-            </div>
-            <div class="pomodoro elems" id="4">
-                Pomodoro Timer
-            </div>
-            <div class="goals elems" id="5">
-                Daily Goals
-            </div>
-        </section>
+      <div class="clock-card" aria-live="polite">
+        <div id="time" class="time">--:--:--</div>
+        <div id="date" class="date">—</div>
+      </div>
     </div>
-    
-    <script src="script.js"></script>
+  </header>
+
+  <main class="grid" role="main">
+
+    <section id="todo" class="card" aria-labelledby="todo-title">
+      <h2 id="todo-title">To-Do</h2>
+      <form id="todo-form"><input id="todo-input" placeholder="Add a task…" /><button>Add</button></form>
+      <ul id="todo-list"></ul>
+    </section>
+
+    <section id="pomodoro" class="card" aria-labelledby="pomodoro-title">
+      <h2 id="pomodoro-title">Pomodoro</h2>
+      <div id="pomodoro-ui"></div>
+    </section>
+
+    <section id="quote" class="card" aria-labelledby="quote-title">
+      <h2 id="quote-title">Quote of the Moment</h2>
+      <blockquote id="quote-text">Loading…</blockquote>
+      <cite id="quote-author"></cite>
+      <button id="new-quote">New Quote</button>
+    </section>
+
+    <section id="planner" class="card" aria-labelledby="planner-title">
+      <h2 id="planner-title">Hourly Planner</h2>
+      <div id="planner-hours"></div>
+    </section>
+  </main>
+
+  <script type="module" src="js/main.js"></script>
 </body>
 </html>

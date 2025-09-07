@@ -1,52 +1,97 @@
-# DAILYDRIVE – PRODUCTIVITY DASHBOARD
+# 🌟 DailyDrive - Modern Productivity Dashboard
 
-A fully responsive productivity dashboard built with HTML, CSS, and JavaScript, designed to enhance your daily workflow through efficient task management and time optimization.
+A sleek, all-in-one productivity dashboard featuring a weather widget, digital clock, to-do list, Pomodoro timer, and inspirational quotes. Built with vanilla JavaScript and modern CSS.
 
-## 🚀 Features
+## ✨ Features
 
-- **To-Do List**: Organize and track your daily tasks with an intuitive interface
-- **Hourly Planner**: Plan your day with a clean, time-based task manager
-- **Pomodoro Timer**: Boost productivity with the classic 25/5 work-break cycle
-- **Real-time Weather**: Current weather updates via public API integration
-- **Inspirational Quotes**: Daily motivation with fresh quotes from an external API
-- **Responsive Design**: Seamless experience across all device sizes
-- **Performance Optimized**: 30% faster interaction through optimized DOM manipulation
+- **Weather Widget**
+  - Real-time weather information
+  - Location-based weather data
+  - Temperature, conditions, wind, and humidity display
 
-## Getting Started
+- **Digital Clock**
+  - Real-time clock with seconds
+  - Current date display
+  - Clean, modern design
 
-1. Clone the repository
-2. Open `index.html` in your web browser
-3. Start using the tools!
+- **To-Do List**
+  - Add, complete, and delete tasks
+  - Persistent storage using localStorage
+  - Clean, intuitive interface
+
+- **Pomodoro Timer**
+  - Customizable work/break intervals
+  - Visual progress indicator
+  - Session tracking
+
+- **Inspirational Quotes**
+  - Random quotes on demand
+  - Author attribution
+  - New quote button
+
+- **Hourly Planner**
+  - Plan your day hour by hour
+  - Visual time tracking
+  - Task scheduling
+
 
 ## 🛠️ Technologies Used
 
-- **Frontend**: 
-  - HTML5 (Semantic Markup)
-  - CSS3 (Flexbox, Grid, Custom Properties)
-  - JavaScript (ES6+)
-  - DOM Manipulation
-  - Public APIs (Weather & Quotes)
-  - Responsive Web Design
-  - Performance Optimization
+- **Frontend**
+  - HTML
+  - CSS
+  - JavaScript
+
+- **APIs**
+  - [Open-Meteo](https://open-meteo.com/) (for weather data)
+  - [Quotable](https://github.com/lukePeavey/quotable) (for quotes)
 
 ## 📁 Project Structure
 
 ```
-DailyDrive/
-├── index.html          # Main application entry point
-├── style.css           # Global styles and theming
-├── script.js           # Core application logic
-├── AeonikTRIAL-*.otf   # Custom font files
-└── README.md           # Project documentation
+dailydrive/
+├── index.html          # Main HTML file
+├── styles/
+│   └── styles.css      # All styles
+└── js/
+    ├── main.js         # Main application logic
+    ├── weather.js      # Weather widget functionality
+    ├── clock.js        # Clock functionality
+    ├── todo.js         # To-do list functionality
+    ├── pomodoro.js     # Pomodoro timer
+    ├── quotes.js       # Quote functionality
+    └── planner.js      # Hourly planner functionality
 ```
 
-## 🚀 Performance Highlights
+## 🔧 Configuration
 
-- Optimized DOM manipulation for ~30% faster interactions
-- Efficient API calls with proper error handling
-- Responsive design that works seamlessly across all devices
-- Clean and maintainable code structure
+The weather feature uses the [Open-Meteo API](https://open-meteo.com/) which doesn't require an API key for basic usage. The weather data is fetched based on the user's geolocation or defaults to New Delhi, India if location access is not available.
 
-## License
+## 🎨 Design Philosophy
 
-This project is open source and available under the [MIT License](LICENSE).
+- **Minimalist Interface**: Clean, uncluttered design focused on usability
+- **Responsive**: Works on desktop and tablet devices
+- **Dark Theme**: Easy on the eyes for extended use
+
+## 🤝 Contributing
+
+Contributions are welcome! Please feel free to submit a Pull Request.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Open a Pull Request
+
+
+## 🙏 Acknowledgments
+
+- Weather data provided by [Open-Meteo](https://open-meteo.com/)
+- Quotes provided by [Quotable](https://github.com/lukePeavey/quotable)
+- Inspired by modern productivity tools and dashboards
+
+## 📬 Contact
+
+Your Name - Prakhar Srivastava - prakhar.srivastava_cs22@gla.ac.in
+
+Project Link: [https://github.com/yourusername/dailydrive](https://github.com/yourusername/dailydrive)
